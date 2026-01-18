@@ -1,4 +1,5 @@
 import numpy as np
+import os
 import matplotlib.pyplot as plt
 import sys
 import cv2
@@ -66,12 +67,13 @@ plt.tight_layout()
 plt.show()
 
 # saving the images in the same folder as original image
-if cv2.imwrite(str(pImg.stem + "_Grayscale.png"), greyImg):
+root, extension = os.path.splitext(ImageName)
+if cv2.imwrite(str(pImg.stem + "_Grayscale"+ extension), greyImg):
     print("Grayscale Image was saved successfully!")
 else:
     print("Error saving image.")
 
-if cv2.imwrite(str(pImg.stem + "_Grayscale_Brightness_" + str(BrightnessFactor) +"x.png"), greyImgBrightness):
+if cv2.imwrite(str(pImg.stem + "_Grayscale_Brightness_" + str(BrightnessFactor) +"x" + extension), greyImgBrightness):
     print("Grayscale Image with brightness was saved successfully!")
 else:
     print("Error saving image.")
