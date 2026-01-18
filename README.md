@@ -6,7 +6,9 @@
 ## How to use?
 - Download and save the python file to required folder. Note that the python file uses libraries such as numpy, matplotlib, cv2. Make sure these are installed.
 - From the command line,
-  > python3 "GrayscaleBrightness.py" "Path/To/Sample/Image/SampleImage.jpg" 1.25
-
+  ```
+   >> python3 "GrayscaleBrightness.py" "Path/To/Sample/Image/SampleImage.jpg" 1.25
+  ```
+- Here, the 2nd argument refers to sample image and 3rd argument refers to brightness factor (1.25). To lower the brightness of the image, user can choose a brightness factor in (0, 1).
 ## Demo
 ![image alt](https://github.com/n-gowtham/Grayscale-Converter-with-Linear-Brightness-Adjustment/blob/305c03b66bc7e2a702eee6dc9a815cbf71a2c0aa/DemoImage.png)
