@@ -6,7 +6,7 @@
 ## How to use?
 - Download and save the python file to required folder. Note that the python file uses libraries such as numpy, matplotlib, cv2. Make sure these are installed.
 - From the command line,
-  >> python3 "GrayscaleBrightness.py" "Path/To/Sample/Image/SampleImage.jpg" 1.25
+  > python3 "GrayscaleBrightness.py" "Path/To/Sample/Image/SampleImage.jpg" 1.25
 
 ## Demo
 ![image alt](https://github.com/n-gowtham/Grayscale-Converter-with-Linear-Brightness-Adjustment/blob/305c03b66bc7e2a702eee6dc9a815cbf71a2c0aa/DemoImage.png)
